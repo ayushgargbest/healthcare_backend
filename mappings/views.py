@@ -81,8 +81,4 @@ def remove_mapping(request, mapping_id):
     
     return Response({
         'message': 'Doctor removed from patient successfully'
-    }, status=status.HTTP_200_OK).save()
-    
-    return Response({
-        'message': 'Doctor removed from patient successfully'
     }, status=status.HTTP_200_OK)
